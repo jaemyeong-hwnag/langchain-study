@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 환경변수 / 시크릿
+.env
+.env.*
+!.env.example
+
+# 도구 캐시
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS / 에디터
+.DS_Store
+.idea/
+.vscode/
